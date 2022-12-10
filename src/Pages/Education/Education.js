@@ -21,8 +21,8 @@ const Education = () => {
         <div id='education' className='px-5 py-16 mt-20 bg-slate-900  '>
             <div className='container mx-auto '>
                 <div className='flex justify-center'>
-                    <button onClick={() => setContent(education)} className='text-center text-4xl font-semibold mb-2 px-3 border-r-2 border-cyan-500'>EDUCATION</button>
-                    <button onClick={() => setContent(experience)} className='text-center text-4xl font-semibold mb-2 px-3'>EXPERIENCE</button>
+                    <button onClick={() => setContent(education)} className='text-center text-2xl md:text-4xl font-semibold mb-2 px-3 border-r-2 border-cyan-500'>EDUCATION</button>
+                    <button onClick={() => setContent(experience)} className='text-center text-2xl md:text-4xl font-semibold mb-2 px-3'>EXPERIENCE</button>
                 </div>
                 <hr className='border-slate-600 w-2/5 mx-auto' />
                 <div className='mt-10 flex justify-center'>

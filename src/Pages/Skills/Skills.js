@@ -3,7 +3,7 @@ const Skills = () => {
     return (
         <div id='skills' className='px-5 py-16 mt-20 bg-slate-900 '>
             <div className='container mx-auto '>
-                <h1 className='text-center text-4xl font-semibold mb-2'>WHAT I KNOW</h1>
+                <h1 className='text-center text-2xl md:text-4xl font-semibold mb-2'>WHAT I KNOW</h1>
                 <hr className='border-slate-600 w-64 mx-auto' />
                 <div className='mt-10 flex md:flex-row flex-col justify-around items-center'>
                     <div className='md:w-2/5'>

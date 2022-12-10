@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <div id='services' className='px-5 py-16 mt-20 bg-slate-900 '>
             <div className='container mx-auto '>
-                <h1 className='text-center text-4xl font-semibold mb-2'>I CAN DO</h1>
+                <h1 className='text-center text-2xl md:text-4xl font-semibold mb-2'>I CAN DO</h1>
                 <hr className='border-slate-600 w-44 mx-auto' />
                 <div className='mt-10 grid md:grid-cols-3 gap-5'>
 
