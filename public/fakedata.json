@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "BoiLagbe",
+        "about": "Book Reselling Full-Stack Website.",
+        "technology": "React,React Query,Node.js,Express.js,MongoDB,Firebase",
+        "features": "User can register as seller to sell books.User can register as buyer to buy books.Sellers can add products to sell from dashboard.Sellers can advertise his unsold products to show his item in advertised section of home page.Seller can delete his sold items.Buyers can see categorized items and book them.From dashboard buyers can make payment with stripe.Buyers also can report any product to admin.Admin can verify sellers, delete any user and remove reported items",
+        "live":"https://boi-lagbe.web.app/",
+        "githubClient":"https://github.com/sarwar-azmain-reza/boilagbe.com",
+        "githubServer":"https://github.com/sarwar-azmain-reza/boilagbe.com-server",
+        "displayimg": "https://i.postimg.cc/Jnb9y7mF/boilagbe.jpg",
+        "img1":"https://i.postimg.cc/1XHqb1QT/boilagbe1.jpg",
+        "img2":"https://i.postimg.cc/SxWh4S5J/boilagbe2.jpg",
+        "img3":"https://i.postimg.cc/xdZDyXNp/boilagbe3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "KidsCamp",
+        "about": "Service Review-Based Full-Stack Website",
+        "technology": "React,React Router,Node.js,Express.js,MongoDB,Firebase",
+        "features": "This is a service based app.User can create account with email, password, and can login with Google.User can add service.User Can post review to any service.User can delete and update his posted review.User need to be logged in to post review.Some important blogs also available",
+        "live":"https://kids-camp-ef82e.web.app/",
+        "githubClient":"https://github.com/sarwar-azmain-reza/kids-camp-client",
+        "githubServer":"https://github.com/sarwar-azmain-reza/kids-camp-server",
+        "displayimg": "https://i.postimg.cc/FRKz960w/kids.jpg",
+        "img1":"https://i.postimg.cc/zGfctJrs/kids1.jpg",
+        "img2":"https://i.postimg.cc/QMTSwCny/kids2.jpg",
+        "img3":"https://i.postimg.cc/1zm5YVt9/kids3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "MilesAhead",
+        "about": "Online Course Selling Full-Stack Website",
+        "technology": "React,React Router,TailwindCSS,Node.js,Express.js,Firebase",
+        "features": "An Educational Web App.Shows courses related to Computer Science.User Sign Up by manual email and password.Login with email,password, google and github.User can Download pdf of course details.User can access premium but have to log in first.Some important blogs also available",
+        "live":"https://miles-ahead-1ae99.web.app/",
+        "githubClient":"https://github.com/sarwar-azmain-reza/miles-ahead-client",
+        "githubServer":"https://github.com/sarwar-azmain-reza/miles-ahead-server",
+        "displayimg": "https://i.postimg.cc/pdkV6tp3/miles.jpg",
+        "img1":"https://i.postimg.cc/ZnTGJpGR/miles1.jpg",
+        "img2":"https://i.postimg.cc/cLNzQV13/miles2.jpg",
+        "img3":"https://i.postimg.cc/x1JdzNC8/miles3.jpg"
+    }
+]

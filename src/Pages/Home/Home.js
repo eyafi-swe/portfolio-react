@@ -5,11 +5,12 @@ import { Link } from 'react-router-dom';
 import Typed from "react-typed"
 import me2 from '../../Assets/me2_clipdrop-relight.png'
 import resume from '../../Assets/resume.jpg';
+import './Home.css';
 const Home = () => {
     return (
 
-        <div className='pb-10'>
-            <div className='flex md:flex-row flex-col items-center justify-around   bg-slate-900  '>
+        <div className='pt-16' id='home'>
+            <div  className='flex md:flex-row flex-col items-center justify-around  '>
                 <div className='mt-10 px-5'>
                     <p className='text-white text-xl'>Assalamu Alaikum, this is</p>
                     <h1 className='text-4xl font-semibold text-white  mt-3'>SARWAR AZMAIN REZA</h1>

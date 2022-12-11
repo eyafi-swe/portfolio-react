@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import './Education.css';
 const Education = () => {
-
-    const education = <div className='bg-slate-700 p-5 rounded-md shadow-md shadow-slate-500'>
+    AOS.init();
+    const education = <div data-aos="fade-up" className='bg-slate-700 p-5 rounded-md shadow-md shadow-slate-500'>
         <p className='text-xl '>Bachelor in Computer Science and Engineering</p>
         <p>CGPA: 3.75</p>
         <p>Daffodil International University</p>
@@ -18,7 +20,7 @@ const Education = () => {
     
     const [content, setContent] = useState(education);
     return (
-        <div id='education' className='px-5 py-16 mt-20 bg-slate-900  '>
+        <div id='education' className='px-5 py-16 mt-20 '>
             <div className='container mx-auto '>
                 <div className='flex justify-center'>
                     <button onClick={() => setContent(education)} className='text-center text-2xl md:text-4xl font-semibold mb-2 px-3 border-r-2 border-cyan-500'>EDUCATION</button>

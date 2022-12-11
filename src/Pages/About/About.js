@@ -1,9 +1,9 @@
 import React from 'react';
 import Typed from "react-typed"
-
+import './About.css';
 const About = () => {
     return (
-        <div className=' px-5 py-16 mt-20 bg-slate-900 ' id='about'>
+        <div className=' px-5 py-16 mt-20 ' id='about'>
             <div className='container mx-auto '>
 
 
@@ -30,7 +30,7 @@ const About = () => {
                         /></h1>
                         <p className='text-justify'>I am studying in the department of Computer Science and Engineering at Daffodil International
                             Unviversity. I have been working on Web Development field for about 2 years. I am a self
-                            motivated quick learner. I am Proficient in latest client-side and server-side technologies. I work with ReactJS, Node.js, Express.js, MongoDB. I am interested in working with Blockchain, Cryptography, and Machine Learning
+                            motivated quick learner. I am Proficient in latest client-side and server-side technologies. I work with ReactJS, Node.js, Express.js, MongoDB. I am interested in working with Blockchain, Cryptography, and Machine Learning.
                         </p>
                         <a href="https://www.linkedin.com/in/sarwar-azmain-reza/" className='btn bg-sky-600 border-none normal-case text-xl mt-5'>HIRE ME</a>
                     </div>
