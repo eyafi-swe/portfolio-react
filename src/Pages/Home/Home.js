@@ -30,7 +30,7 @@ const Home = () => {
                         <figure className='cursor-pointer'>
                             <PhotoProvider>
                                 <PhotoView src={resume}>
-                                    <Link className='btn bg-sky-600 border-none normal-case text-xl'>MY RESUME</Link>
+                                    <Link className='btn bg-sky-600 border-none  text-xl'>MY RESUME</Link>
                                 </PhotoView>
                             </PhotoProvider>
 

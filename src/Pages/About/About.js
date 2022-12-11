@@ -32,7 +32,7 @@ const About = () => {
                             Unviversity. I have been working on Web Development field for about 2 years. I am a self
                             motivated quick learner. I am Proficient in latest client-side and server-side technologies. I work with ReactJS, Node.js, Express.js, MongoDB. I am interested in working with Blockchain, Cryptography, and Machine Learning.
                         </p>
-                        <a href="https://www.linkedin.com/in/sarwar-azmain-reza/" className='btn bg-sky-600 border-none normal-case text-xl mt-5'>HIRE ME</a>
+                        <a href="https://www.linkedin.com/in/sarwar-azmain-reza/" className='btn bg-sky-600 border-none  text-xl mt-5'>HIRE ME</a>
                     </div>
                 </div>
             </div>
