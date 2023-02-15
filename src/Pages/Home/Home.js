@@ -10,19 +10,20 @@ const Home = () => {
     return (
 
         <div className='pt-16' id='home'>
-            <div  className='flex md:flex-row flex-col items-center justify-around  '>
+            <div className='flex md:flex-row flex-col items-center justify-around  '>
                 <div className='mt-10 px-5'>
                     <p className='text-white text-xl'>Assalamu Alaikum, this is</p>
-                    <h1 className='text-4xl font-semibold text-white  mt-3'>SARWAR AZMAIN REZA</h1>
+                    <h1 className='text-4xl font-semibold text-white  mt-3'>SARWAR AZMAIN EYAFI</h1>
                     <h1 className='text-2xl  text-white mt-3'><Typed
                         strings={[
                             "I'm a Web Application Developer",
-                            "I'm a React Developer",
+                            "I'm a Mobile Application Developer",
+                            "I'm a MERN Stack Developer",
                             "I Love Software Development",
                             "I Love Blockchain",
                         ]}
-                        typeSpeed={150}
-                        backSpeed={100}
+                        typeSpeed={50}
+                        backSpeed={50}
                         loop
                     /></h1>
 
@@ -44,7 +45,7 @@ const Home = () => {
                 </div>
             </div>
 
-            
+
         </div>
     );
 };

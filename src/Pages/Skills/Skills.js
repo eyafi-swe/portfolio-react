@@ -1,6 +1,6 @@
 import React from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 const Skills = () => {
     AOS.init();
     return (
@@ -11,7 +11,7 @@ const Skills = () => {
                 <div className='mt-10 flex md:flex-row flex-col justify-around items-center'>
                     <div className='md:w-2/5'>
                         <div className="text-3xl font-semibold mb-2">My skills & experiences</div> <hr className='border-slate-600 mb-2' />
-                        <p className='text-justify'>I am an Experienced Web Application Developer, adept in all stages of web development. Knowledgeable in the user interface, testing, and debugging processes. Bringing forth expertise in the design, installation, testing, and maintenance of web systems. Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including Node.js, Express.js, MongoDb, MySQL for server-side development, and ReactJS, TailwindCSS, Bootstrap, HTML5, and CSS3 for client-side development. I am also familiar with Next.js, Redux, Python and Django. I am Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</p>
+                        <p className='text-justify'>I am an Experienced Web Application Developer, and Cross Platform Mobile Application Developer. I am adept in all stages of web development. Knowledgeable in the user interface, testing, and debugging processes. Bringing forth expertise in the design, installation, testing, and maintenance of web systems. Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including Node.js, Express.js, MongoDb, MySQL for server-side development, and ReactJS, React Native, TailwindCSS, Bootstrap, HTML5, and CSS3 for client-side development. I am also familiar with Next.js, Redux, Python and Django. I am Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</p>
 
                     </div>
 
@@ -23,6 +23,14 @@ const Skills = () => {
                         <div data-aos="fade-up" className="bg-slate-800 rounded-lg py-2 flex flex-col items-center">
                             <div className=" radial-progress text-info" style={{ "--value": 70 }}>70%</div>
                             <p >ReactJS</p>
+                        </div>
+                        <div data-aos="fade-up" className="bg-slate-800 rounded-lg py-2 flex flex-col items-center">
+                            <div className=" radial-progress text-info" style={{ "--value": 70 }}>70%</div>
+                            <p >React Native</p>
+                        </div>
+                        <div data-aos="fade-up" className="bg-slate-800 rounded-lg py-2 flex flex-col items-center">
+                            <div className=" radial-progress text-info" style={{ "--value": 70 }}>70%</div>
+                            <p >Next.js</p>
                         </div>
                         <div data-aos="fade-up" className="bg-slate-800 rounded-lg py-2 flex flex-col items-center">
                             <div className=" radial-progress text-info" style={{ "--value": 70 }}>70%</div>
@@ -52,7 +60,7 @@ const Skills = () => {
                             <div className=" radial-progress text-info" style={{ "--value": 80 }}>80%</div>
                             <p >REST API</p>
                         </div>
-                      
+
                         <div data-aos="fade-up" className="bg-slate-800 rounded-lg py-2 flex flex-col items-center">
                             <div className=" radial-progress text-info" style={{ "--value": 90 }}>90%</div>
                             <p >HTML5</p>
@@ -70,10 +78,14 @@ const Skills = () => {
                             <p >Bootstrap</p>
                         </div>
                         <div data-aos="fade-up" className="bg-slate-800 rounded-lg py-2 flex flex-col items-center">
+                            <div className=" radial-progress text-info" style={{ "--value": 90 }}>80%</div>
+                            <p >Material UI</p>
+                        </div>
+                        <div data-aos="fade-up" className="bg-slate-800 rounded-lg py-2 flex flex-col items-center">
                             <div className=" radial-progress text-info" style={{ "--value": 70 }}>70%</div>
                             <p >Python</p>
                         </div>
-                        
+
                         <div data-aos="fade-up" className="bg-slate-800 rounded-lg py-2 flex flex-col items-center">
                             <div className=" radial-progress text-info" style={{ "--value": 70 }}>70%</div>
                             <p >C</p>
