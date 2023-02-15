@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll'
 const Header = () => {
     return (
-        <div className="navbar bg-slate-900 text-white fixed">
+        <div className="navbar bg-slate-900 text-white fixed z-10 shadow-md shadow-slate-800">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
